@@ -9,13 +9,13 @@
 </head>
 <body>
     <div id="title">
-        roman numeral converter
+        Roman Numeral Converter
     </div>
 
     <div id="container">
-        <p id="text">Enter a number</p>
+        <p id="pron">Escute a pronúncia <button id="voice" onclick="speak()">  ▶  </button> </p>
+        <p id="text">Insira o número  </p> <button onclick="convert()">Converta</button>
         <input type="number" id="number">
-        <button id="convert-btn">Convert</button>
         <div id="output"></div>
     </div>
     <script src="script.js" defer></script>

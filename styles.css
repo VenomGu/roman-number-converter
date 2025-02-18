@@ -33,7 +33,7 @@ body {
   color: #f39c12;
   margin-bottom: 25px;
   font-family: "RomanLetters", "Times New Roman", serif;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+  text-shadow: 20px 20px 30px rgb(0, 0, 0);
 }
 
 #container {
@@ -42,7 +42,7 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
   padding: 30px;
   width: 400px;
-  height: 350px;
+  height: 400px;
   text-align: center;
   border: 2px solid #f39c12;
   display: flex;
@@ -52,7 +52,6 @@ body {
 
 #text {
   font-size: 1.3rem;
-  margin-bottom: 15px;
   color: #ecf0f1;
 }
 
@@ -101,12 +100,44 @@ button:active {
 
 #output {
   margin-top: 15px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #e74c3c;
 }
 
-#error {
-  color: #e74c3c;
-  font-size: 1rem;
+#voice {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "RomanLetters", "Times New Roman", serif;
+  font-size: 14px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  border: 0;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+}
+
+#pron {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  font-family: "RomanLetters", "Times New Roman", serif;
+  text-shadow: 20px 20px 30px rgb(0, 0, 0);
+  display: flex;
+  padding-top: 10px;
+  margin-right: 16px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-evenly;
 }
